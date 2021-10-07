@@ -4,4 +4,5 @@
 ![avatar](https://cdn.jsdelivr.net/gh/youshandefeiyang/webcdn@v4.0/show.png)
 ### 食用方法【仅保证在Windows端正常运行】：
 1.安装Python 3.10.0（本项目以提供）！
+
 2.在检测工具根目录打开`开始检测.bat`，首先输入`3`获取管理员权限，然后输入`2`安装好运行所需依赖，安装好依赖后退出，重新打开`开始检测.bat`，输入`1`并按照提示开始检测！
