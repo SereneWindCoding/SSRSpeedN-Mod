@@ -229,7 +229,7 @@ class ExportResult(object):
 			trafficUsed = self.__parseTraffic(totalTraffic)
 
 		draw.text((5, imageHeight + 30 + 4),
-			"注：TV端请用原生解锁的节点，手机电脑用DNS解锁的节点即可，N/A表示该节点不可用  本次节点存活情况: [{}/{}]".format(
+			"注：原生解锁和DNS解锁只是解锁方式有区别，在电视端使用时DNS解锁“可能”会提示使用代理，None表示该节点可用，但看不了奈飞，N/A表示该节点不可用  本次节点存活情况: [{}/{}]".format(
 				onlineNode,
 				len(result)
 			),
