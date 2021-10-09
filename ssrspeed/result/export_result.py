@@ -229,7 +229,7 @@ class ExportResult(object):
 			trafficUsed = self.__parseTraffic(totalTraffic)
 
 		draw.text((5, imageHeight + 30 + 6),
-			"注：原生解锁和DNS解锁只是解锁方式有区别，在电视端使用时DNS解锁“可能”会提示使用代理\n未解锁和None均表示该节点可用，但看不了奈飞，N/A表示该节点不可用\n本次节点存活情况: [{}/{}]".format(
+			"注：原生解锁和DNS解锁只是解锁方式有区别，在电视端使用时DNS解锁“可能”会提示使用代理\n未解锁表示该节点可用，但看不了奈飞，None表示连接奈飞服务器失败，N/A表示该节点不可用\n本次节点存活情况: [{}/{}]".format(
 				onlineNode,
 				len(result)
 			),
