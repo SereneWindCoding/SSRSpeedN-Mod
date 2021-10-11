@@ -7,15 +7,4 @@
 
 2.在检测工具根目录打开`开始检测.bat`，首先输入`3`获取管理员权限，然后输入`2`安装好运行所需依赖，安装好依赖后退出，重新打开`开始检测.bat`，输入`1`并按照提示开始检测！
 
-3.如果想要设置7x24H自动检测，需要在Windows Server部署，并增加计划任务和批处理脚本，输出图片可以更改为固定名称，web前端图片属性加随机数即可做到本地浏览器不缓存
-```
-<img class="no-cache" src="./jiancetu.png" width="100%" height="100%">
-<script type="text/javascript">
-var suiji = document.getElementsByClassName('no-cache');
-for (var i = 0; i < nods.length; i++){
-    suiji[i].attributes['src'].value += "?a=" + Math.random();
-}
-</script>
-```
-
-4.不会的可以去看[视频教程](https://www.youtube.com/watch?v=tTv1muckTFg)！
+3.不会的可以去看[视频教程](https://www.youtube.com/watch?v=tTv1muckTFg)！
